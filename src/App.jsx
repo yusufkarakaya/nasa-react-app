@@ -6,7 +6,6 @@ import Footer from "./components/Footer";
 
 function App() {
   const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(false);
   const [showSidebar, setShowSidebar] = useState(false);
 
   function toggleSidebar() {

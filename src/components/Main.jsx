@@ -9,7 +9,6 @@ const Main = (props) => {
         src={data.hdurl}
         alt={data.title || "bg-image"}
       />
-      ;
     </div>
   );
 };
