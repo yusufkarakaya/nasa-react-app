@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color: white;
-  background-color: #030615;
+  background-color: #000;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -90,6 +90,7 @@ footer button:hover {
 .sidebar {
   position: fixed;
   inset: 0;
+  right: 0;
   display: flex;
   flex-direction: column;
   z-index: 10;
@@ -175,15 +176,25 @@ footer button:hover {
   .sidebar {
     position: relative;
     inset: unset;
+
     min-width: 30%;
     box-shadow: 0 0 40px 1px #030615;
   }
   .sidebarContents {
     margin: unset;
+    position: fixed;
+    right: 0;
+    width: 35%;
   }
   .bgOverlay {
     right: 0;
     left: unset;
     width: 100vw;
   }
+}
+
+.video {
+  margin: 1rem;
+  width: 100vh;
+  height: 80vh;
 }
